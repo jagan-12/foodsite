@@ -1,17 +1,15 @@
-##  Lessons
-1. Introduciton to the course
-2. Install development tools
-3. Create Angular App
+1. Install development tools
+2. Create Angular App
    1. Create project's folder
    2. Install @angular/cli
    3. Create App as frontend
 
-4. Add Header
+3. Add Header
    1. Generate Component
    2. Add Html
    3. Add CSS
 
-5. List Foods
+4. List Foods
     1. Create Food model
     2. Create data.ts
        1. Add sample foods
@@ -22,7 +20,7 @@
        2. Add html
        3. Add css
 
-6. Search
+5. Search
    1. Add method to Food service
    2. Add search route
    3. Show search result in Home component
@@ -32,7 +30,7 @@
       3. Add html
       4. Add css
    
-7. Tags Bar
+6. Tags Bar
    1. Create Tag model
    2. Add sample tags to data.ts
    3. Food service
@@ -46,7 +44,7 @@
       3. Add html
       4. Add css
 
-8. Food Page
+7. Food Page
    1. Add method to food service
    2. Generate Food Page component
       1. Add Route
@@ -54,7 +52,7 @@
       3. Add html
       4. Add css
 
-9. Cart Page
+8. Cart Page
    1. Create CartItem Model
    2. Create Cart Model
    3. Generate Cart service
@@ -65,7 +63,7 @@
       3. Add html
       4. Add css
 
-10. Not Found!
+9. Not Found!
     1. Generate Component
        1. Add ts
        2. Add html
@@ -75,7 +73,7 @@
        2. Food Page
        3. Cart Page
 
-11. Connect To Backend
+10. Connect To Backend
     1.  Create backend folder
     2.  npm init
     3.  npm install typescript
@@ -91,7 +89,7 @@
     11. Add HttpClient module
     12. Update food service
 
-12. Login Page
+11. Login Page
     1.  Generate Component
         1.  Add to routes
         2.  Add ts 
@@ -119,13 +117,13 @@
            1. Add to Header
 
 
-13. Make Components For Login Page
+12. Make Components For Login Page
     1. Input Container
     2. Input Validation
     3. Text Input
     4. Default Button
 
-14. Connect Login API To MongoDB Atlas
+13. Connect Login API To MongoDB Atlas
     1. Moving Apis into routers
     2. Create MongoDB Atlas
     3. Create .env file
@@ -138,23 +136,21 @@
     6. Use MongoDB instead of data.ts in apis
 
 
-15. Register User
+14. Register User
     1.  Add Register api
     2.  Add Register service method
     3.  Add Register link 
     4.  Add Register Component
 
 
-16. Loading!
+15. Loading!
     1.  Add Image 
     2.  Add Component
     3.  Add Service
     4.  Add Interceptor
 
 
-
-
-17. Checkout Page
+16. Checkout Page
     1.  Create Order Model
     2.  Create Checkout Page Component
         1.  Add To Router   
@@ -184,23 +180,23 @@
            1. Add create Method
         7. Add Auth Interceptor
 
-18. Payment Page
+17. Payment Page
     1. Generate Component
     2. Add 'getOrderForCurrentUser' api 
     3. Add Order Service method
     4. Connect Component to Service
     5. Make the map component readonly
 
-19. Adding Paypal
+18. Adding Paypal
     1. Generate Component
        1. Add to payment page
     2. Get Paypal client Id
     3. Add Paypal JS to index.html
     4. Set up Paypal button
     5. Add Pay api to order router   
-    6. Get Paypal sandbox account
+    6. Get Paypal sandbox account (In progress..)
 
-20. Order Track Page
+19. Order Track Page (In progress..)
     1.  Generate Component
         1.  Add to routes
     2.  Add API
@@ -208,15 +204,3 @@
     3.  Add method to order.service
     4.  Add HTML
     5.  Add CSS
-
-21. Deploy On Heroku
-    1.  OutputPath in angular.json
-    2.  package.json
-        1.  frontend
-        2.  backend
-        3.  root
-    3.  BASE_URL in urls.ts
-    4.  Public folder config in server.ts
-    5.  Run commands
-    6.  Add built folder to .gitignore
-    7.  Commit and Push
